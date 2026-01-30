@@ -180,6 +180,14 @@ The application uses Electron Builder with the following configuration:
 
 ## 🔒 Security Features
 
+### Latest Security Updates (v1.0.1)
+- ✅ **All dependencies updated to secure versions**
+- ✅ jsPDF 4.0.0 - Fixed DoS, ReDoS, and Path Traversal vulnerabilities
+- ✅ xlsx 0.20.3 - Fixed ReDoS and Prototype Pollution vulnerabilities
+- ✅ No known security vulnerabilities
+- 📄 See [SECURITY.md](SECURITY.md) for details
+
+### Application Security
 - Context isolation enabled
 - Node integration disabled
 - Secure IPC communication via preload script

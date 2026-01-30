@@ -2,6 +2,31 @@
 
 All notable changes to WeFit Gym Management System will be documented in this file.
 
+## [1.0.1] - 2024-01-30
+
+### 🔒 Security
+
+**Critical Security Updates**
+- Updated jsPDF from 2.5.1 to 4.0.0
+  - Fixed Denial of Service (DoS) vulnerability
+  - Fixed Regular Expression Denial of Service (ReDoS)
+  - Fixed Local File Inclusion/Path Traversal vulnerability
+- Updated xlsx from 0.18.5 to 0.20.3
+  - Fixed Regular Expression Denial of Service (ReDoS)
+  - Fixed Prototype Pollution vulnerability
+- Updated jspdf-autotable from 3.7.0 to 3.8.0 for compatibility
+
+### 📝 Documentation
+- Added SECURITY.md with detailed vulnerability information
+- Updated CHANGELOG.md with security fixes
+
+### ⚠️ Action Required
+- Test PDF export functionality after update
+- Test Excel export functionality after update
+- Run `npm install` to update dependencies
+
+---
+
 ## [1.0.0] - 2024-01-30
 
 ### 🎉 Initial Release
