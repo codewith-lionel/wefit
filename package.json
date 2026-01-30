@@ -67,8 +67,7 @@
     "win": {
       "target": [
         "nsis"
-      ],
-      "icon": "assets/icon.ico"
+      ]
     },
     "files": [
       "electron/**/*",
