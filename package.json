@@ -1,0 +1,58 @@
+{
+  "name": "wefit-gym-management",
+  "version": "1.0.0",
+  "description": "Complete Gym Management Desktop Application",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "build": "electron-builder --windows",
+    "build:dir": "electron-builder --dir",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "keywords": [
+    "electron",
+    "gym",
+    "management",
+    "fitness"
+  ],
+  "author": "WeFit Team",
+  "license": "MIT",
+  "build": {
+    "appId": "com.wefit.gym-management",
+    "productName": "WeFit Gym Management",
+    "directories": {
+      "buildResources": "build",
+      "output": "dist"
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "build/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    },
+    "files": [
+      "src/**/*",
+      "public/**/*",
+      "package.json"
+    ]
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "qrcode": "^1.5.3",
+    "better-sqlite3": "^9.2.2"
+  },
+  "devDependencies": {
+    "electron": "^28.1.0",
+    "electron-builder": "^24.9.1"
+  }
+}
