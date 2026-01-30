@@ -1,0 +1,10 @@
+<svg width="256" height="256" xmlns="http://www.w3.org/2000/svg">
+  <rect width="256" height="256" rx="40" fill="#6c5ce7"/>
+  <circle cx="128" cy="80" r="25" fill="white"/>
+  <rect x="103" y="110" width="50" height="60" rx="8" fill="white"/>
+  <circle cx="90" cy="130" r="15" fill="white"/>
+  <circle cx="166" cy="130" r="15" fill="white"/>
+  <rect x="75" y="140" width="30" height="50" rx="8" fill="white"/>
+  <rect x="151" y="140" width="30" height="50" rx="8" fill="white"/>
+  <text x="128" y="230" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">💪</text>
+</svg>
